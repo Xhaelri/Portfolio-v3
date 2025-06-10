@@ -14,6 +14,7 @@ Download the project to your computer and install needed packages with command:
 $ npm install
 ```
 
+
 Then create .env file:
 
 ```bash
