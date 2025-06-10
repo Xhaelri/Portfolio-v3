@@ -26,26 +26,48 @@ export const links = [
 export const projectsData = [
   {
     image: '/images/project-2.webp',
-    title: 'Next-starter',
+    title: 'NovaCart',
     description:
-      'A Next.js starter template, packed with features like TypeScript, Tailwind CSS, Next-auth, Eslint, Stripe, testing tools and more.',
-    technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
+      'A dynamic product marketplace with smooth animations, advanced state management, and Firebasebackend for authentication and storage.',
+    technologies: [
+      'React',
+      'JavaScript',
+      'Tailwind',
+      'Redux',
+      'Firebase',
+      'Framer Motion',
+    ],
     links: {
-      preview: 'https://next-starter-skolaczk.vercel.app',
-      github: 'https://github.com/Skolaczk/next-starter',
-      githubApi: 'https://api.github.com/repos/Skolaczk/next-starter',
+      preview: 'https://novacartt.vercel.app/',
+      github: 'https://github.com/Xhaelri/NovaCart',
     },
   },
   {
     image: '/images/project-1.webp',
-    title: 'SocialHub',
+    title: 'MediPortal',
     description:
-      'SocialHub is a next-generation social media app developed using Next.js and Nest.js.',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+      'An appointment booking platform enabling patients to register, log in, and reserve consultations with real-timeavailability management.',
+    technologies: [
+      'React',
+      'JavaScript',
+      'Context API',
+      'Tailwind',
+      'Firebase',
+    ],
     links: {
-      preview: 'https://socialhub-ms.vercel.app/',
-      github: 'https://github.com/Skolaczk/SocialHub',
-      githubApi: 'https://api.github.com/repos/Skolaczk/SocialHub',
+      preview: 'https://mediportall.vercel.app',
+      github: 'https://github.com/Xhaelri/MediPortal',
+    },
+  },
+  {
+    image: '/images/project-3.webp',
+    title: 'ZestyBite',
+    description:
+      'A single-page food delivery site showcasing restaurants and menu items with responsive layout andinteractive ordering features.',
+    technologies: ['React', 'CSS', 'React Router', 'JavaScript'],
+    links: {
+      preview: 'https://zestybitte.vercel.app/',
+      github: 'https://github.com/Xhaelri/ZestyBite',
     },
   },
 ] as const;
