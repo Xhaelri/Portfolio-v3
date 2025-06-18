@@ -61,6 +61,7 @@ export const Header = () => {
           </nav>
         </DialogContent>
       </Dialog>
+
       <ThemeToggle className="bg-background/80 backdrop-blur-sm sm:hidden" />
       <nav className="text-muted-foreground hidden text-sm sm:block">
         <ul className="flex gap-5">

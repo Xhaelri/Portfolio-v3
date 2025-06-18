@@ -70,8 +70,8 @@ export const Intro = () => {
             Get in touch <Icons.arrowRight className="ml-2 size-4" />
           </Link>
         </Button>
-        <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
-          <a href="/alisaleh-frontend-developer.pdf" download>
+        <Button variant="outline" size="lg" className=" sm:flex" asChild>
+          <a href="/alisaleh-frontend-developer-cv.pdf" download>
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
