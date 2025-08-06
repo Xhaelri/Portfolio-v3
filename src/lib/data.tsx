@@ -25,6 +25,27 @@ export const links = [
 
 export const projectsData = [
   {
+    image: '/images/project-4.webp',
+    title: 'Sekra',
+    description:
+      'Sekra is a modern, full-stack e-commerce web application built with Next.js 15, TypeScript, and Tailwind CSS, designed for performance, scalability, and user experience. It supports authenticated users, guest shopping, serverless deployment, and much more — aiming to deliver a smooth online shopping experience with rich interactions and modular architecture.',
+    technologies: [
+      'Tailwind',
+      'Framer Motion',
+      'Next.js',
+      'TypeScript',
+      'Prisma',
+      'PostgreSQL',
+      'Neon',
+      'Next-Auth',
+      'Paymob',
+    ],
+    links: {
+      preview: 'https://sekra-seven.vercel.app/en',
+      github: 'https://github.com/Xhaelri/sekra',
+    },
+  },
+  {
     image: '/images/project-2.webp',
     title: 'NovaCart',
     description:

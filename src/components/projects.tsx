@@ -27,7 +27,7 @@ export const Projects = () => {
       >
         <SectionHeading heading="My Projects" content="Projects I worked on." />
       </motion.div>
-      <div className="flex flex-col gap-7 md:flex-row">
+      <div className="grid grid-cols-1 gap-2 md:grid-cols-3">
         {projectsData.map((project, index) => (
           <Project key={project.title} project={project} index={index} />
         ))}
