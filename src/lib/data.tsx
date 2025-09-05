@@ -25,6 +25,24 @@ export const links = [
 
 export const projectsData = [
   {
+    image: '/images/project-5.webp',
+    title: 'Qitchen',
+    description:
+      'Qitchen is A complete backend service for a restaurant application, built with Node.js, Express, and MongoDB (Mongoose) It supports JWT authentication, role-based access, product and category management, cart and orders, reviews, address management, table reservations, Stripe payment integration, and Cloudinary image uploads.',
+    technologies: [
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'JWT',
+      'Stripe',
+      'Cloudinary',
+    ],
+    links: {
+      preview: 'https://omar-mazen-qitchen.vercel.app/home',
+      github: 'https://github.com/Xhaelri/Qitchen',
+    },
+  },
+  {
     image: '/images/project-4.webp',
     title: 'Majora',
     description:
