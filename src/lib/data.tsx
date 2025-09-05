@@ -26,9 +26,9 @@ export const links = [
 export const projectsData = [
   {
     image: '/images/project-4.webp',
-    title: 'Sekra',
+    title: 'Majora',
     description:
-      'Sekra is a modern, full-stack e-commerce web application built with Next.js 15, TypeScript, and Tailwind CSS, designed for performance, scalability, and user experience. It supports authenticated users, guest shopping, serverless deployment, and much more — aiming to deliver a smooth online shopping experience with rich interactions and modular architecture.',
+      'Majora is a modern, full-stack e-commerce web application built with Next.js 15, TypeScript, and Tailwind CSS, designed for performance, scalability, and user experience. It supports authenticated users, guest shopping, serverless deployment, and much more — aiming to deliver a smooth online shopping experience with rich interactions and modular architecture.',
     technologies: [
       'Tailwind',
       'Framer Motion',
@@ -41,8 +41,8 @@ export const projectsData = [
       'Paymob',
     ],
     links: {
-      preview: 'https://sekra-seven.vercel.app/en',
-      github: 'https://github.com/Xhaelri/sekra',
+      preview: 'https://Majora-shop.vercel.app/en',
+      github: 'https://github.com/Xhaelri/Majora',
     },
   },
   {
@@ -126,4 +126,8 @@ export const skillsData = [
   { icon: <Icons.react className="size-12" /> },
   { icon: <Icons.redux className="size-12" /> },
   { icon: <Icons.nextjs className="size-12" /> },
+  { icon: <Icons.nodejs className="size-12" /> },
+  { icon: <Icons.express className="size-12" /> },
+  { icon: <Icons.mongo className="size-12" /> },
+  { icon: <Icons.postgresql className="size-12" /> },
 ] as const;

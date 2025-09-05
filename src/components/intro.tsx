@@ -42,7 +42,7 @@ export const Intro = () => {
       >
         Hi I&#39;m a{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Frontend
+          Full Stack
         </span>{' '}
         developer creating modern web apps.
       </motion.h1>
@@ -54,8 +54,9 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        A frontend developer based in the Egypt. I&#39;m passionate about
-        building modern web applications using Next.js, React, and Tailwind CSS.
+        A Full Stack developer based in the Egypt. I&#39;m passionate about
+        building modern web applications using Next.js, React, Node.js, Express,
+        MongoDB, PostgreSQL and Tailwind CSS.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -71,7 +72,7 @@ export const Intro = () => {
           </Link>
         </Button>
         <Button variant="outline" size="lg" className=" sm:flex" asChild>
-          <a href="/alisaleh-frontend-developer-cv.pdf" download>
+          <a href="/public/alisaleh-full-stack-developer.pdf" download>
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
