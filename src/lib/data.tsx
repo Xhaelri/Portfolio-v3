@@ -113,6 +113,25 @@ export const projectsData = [
 
 export const experiencesData = [
   {
+    title: 'Frontend developer intern',
+    company: 'TAR - Digital, business and Technology consulting',
+    description: [
+      'Developed and customized themes for e-commerce platforms using Twig, Salla Twilight, Tailwind CSS, and JavaScript.',
+      'Gained hands-on experience with e-commerce development workflows, theme customization, and modern front-end best practices.',
+      'Ensured cross-browser compatibility, performance optimization, and clean, maintainable code.',
+    ],
+    period: 'Aug 2025 - Sep 2025',
+    technologies: [
+      'HTML',
+      'CSS',
+      'Twig',
+      'Salla Twilight',
+      'JavaScript',
+      'TypeScript',
+      'Tailwind',
+    ],
+  },
+  {
     title: 'Frontend and Cross-Platform Mobile developer intern',
     company: 'Information Technology Institute (ITI)',
     description: [
@@ -121,7 +140,7 @@ export const experiencesData = [
       'Led a team in developing Herafi, a platform connecting clients with handymen, enhancing userexperience.',
       'Developed a RAG-based AI chatbot using Gemini 1.5 Flash, Pinecone, and sentence-transformers/all-MiniLM-L6-v2.',
     ],
-    period: '2024 - 2025',
+    period: 'Nov 2024 - May 2025',
     technologies: [
       'HTML',
       'CSS',
@@ -130,6 +149,7 @@ export const experiencesData = [
       'React',
       'Next.js',
       'Tailwind',
+      'Node.js',
     ],
   },
 ] as const;
